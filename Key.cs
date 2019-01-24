@@ -10,8 +10,7 @@ public class Key : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            key.SetActive(false);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 }
